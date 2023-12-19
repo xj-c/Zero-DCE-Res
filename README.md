@@ -19,7 +19,7 @@ You can also use conda enviroment to run code.
 │   │        └── low.z01  
 │   │        └──  low.z02  
 │   └── result  
-│         └── guide.txt  
+│                    └──guide.txt  
 ├── lowlight_test.py # testing code  
 ├── lowlight_train.py # training code  
 ├── model.py # Zero-DEC-Res network  
