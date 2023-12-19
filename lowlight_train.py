@@ -67,13 +67,8 @@ def train(config):
 
             loss_exp = 10 * torch.mean(L_exp(enhanced_image))
 
-            #loss_ssim = 1 * (1-L_ssim(img_lowlight, enhanced_image))
-
-            #loss_laplacian = 1 * L_laplacian(img_lowlight,enhanced_image)
-
             # best_loss
             loss = Loss_TV + loss_spa + loss_col + loss_exp
-            #
 
             optimizer.zero_grad()
             loss.backward()
