@@ -105,13 +105,6 @@ def train(config):
 
 
 if __name__ == "__main__":
-    # writer = SummaryWriter(log_dir="runs", flush_secs=120)
-    # for n_iter in range(100):
-    #     writer.add_scalar(tag='Loss/train',
-    #                       scalar_value=np.random.random(),
-    #                       global_step=n_iter)
-    #     writer.add_scalar('Loss/test', np.random.random(), n_iter)
-    # writer.close()
     parser = argparse.ArgumentParser()
 
     # Input Parameters
