@@ -6,7 +6,7 @@ this is a modify version of Zero-DCE, it use the Residual Block to replace the d
 3. torchvision
 4. opencv
 5. cuda 11.8
-6. Pillow 9.5.0
+6. Pillow 9.5.0  
 You can also use conda enviroment to run code.  
 ## Floder structure
 ```
