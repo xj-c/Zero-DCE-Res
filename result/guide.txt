@@ -1,0 +1,2 @@
+The script will process the image from the subfolders in the "test_data" folder. 
+Before you run the test, please create the new folders in "result" folder which have the same name as the subfolders in "test_data"
