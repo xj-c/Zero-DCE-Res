@@ -12,7 +12,6 @@ import model
 import Myloss
 from torch.utils.tensorboard import SummaryWriter
 import numpy as np
-import LossDenoise
 from torchvision import transforms
 
 
@@ -47,9 +46,6 @@ def train(config):
 
     L_exp = Myloss.L_exp(16, 0.55)
     L_TV = Myloss.L_TV()
-
-    #L_ssim = LossDenoise.SSIM()
-    L_laplacian = LossDenoise.La_Loss()
 
     optimizer = torch.optim.Adam(DCE_net.parameters(), lr=config.lr, weight_decay=config.weight_decay)
 
