@@ -16,7 +16,7 @@ You can also use conda enviroment to run code.
 │   │   └── LIME  
 │   │   └── New  
 │   └── train_data   
-│   │   ├── low   
+│   │   └── low   
 │   │        ├── low.zip # The compressed dataset.   
 │   │        └── low.z01  
 │   │        └── low.z02  
